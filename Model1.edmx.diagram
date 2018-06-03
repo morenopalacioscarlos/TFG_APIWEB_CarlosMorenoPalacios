@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="392ae8d0ea6e4c378c8f028c23d1871f" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="MachineVendingModel.Change" Width="1.5" PointX="8.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Items" Width="1.5" PointX="0.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.LoginTime" Width="1.5" PointX="5.875" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Message" Width="1.5" PointX="3.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Rol" Width="1.5" PointX="5.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.RolesPermissionXml" Width="1.5" PointX="8.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Security" Width="1.5" PointX="8.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Slots" Width="1.5" PointX="0.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Solded" Width="1.5" PointX="3" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MachineVendingModel.Vending_Machine" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="MachineVendingModel.Change_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MachineVendingModel.Products_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MachineVendingModel.Slots_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="MachineVendingModel.FK_Security_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="MachineVendingModel.Slots_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MachineVendingModel.Vending_fk0" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MachineVendingModel.PriceUpdated" Width="1.5" PointX="0.5" PointY="7.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

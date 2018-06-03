@@ -1,0 +1,452 @@
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\ApplicationInsights.config
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\csc.exe
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\vbc.exe
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll.config
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Owin.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WebGrease.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.pdb
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.xml
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\ApplicationInsights.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\csc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\vbc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\WebGrease.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\ApplicationInsights.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\csc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\vbc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\WebGrease.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\copia local\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\ApplicationInsights.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\csc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\vbc.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll.config
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\WebGrease.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.Web.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Newtonsoft.Json.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Net.Http.Formatting.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Helpers.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.WebHost.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Mvc.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Optimization.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.WebPages.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Antlr3.Runtime.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\EntityFramework.SqlServer.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\bin\System.Web.Http.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_API_WEB\WebApiTfg\WEBAPI_VENDINGMACHINE\obj\Debug\WEBAPI_VENDINGMACHINE.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\ApplicationInsights.config
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\csc.exe
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\vbc.exe
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\WEBAPI_VENDINGMACHINE.dll.config
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\WEBAPI_VENDINGMACHINE.pdb
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Antlr3.Runtime.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.Web.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Newtonsoft.Json.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Helpers.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.Owin.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Mvc.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Optimization.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\WebGrease.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.Web.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Newtonsoft.Json.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Helpers.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Mvc.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Optimization.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Antlr3.Runtime.pdb
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\bin\System.Web.Http.Owin.xml
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\obj\Debug\WEBAPI_VENDINGMACHINE.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\obj\Debug\WEBAPI_VENDINGMACHINE.dll
+C:\Users\charl\Desktop\TFG\TFG_WEBAPI\obj\Debug\WEBAPI_VENDINGMACHINE.pdb

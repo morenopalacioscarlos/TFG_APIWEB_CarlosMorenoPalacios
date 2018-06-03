@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MachineVendingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Change">
+    <Key>
+      <PropertyRef Name="Id_Change" />
+    </Key>
+    <Property Name="Id_Change" Type="Int32" Nullable="false" />
+    <Property Name="Id_Machine" Type="Int32" Nullable="false" />
+    <Property Name="Coins_2_Eur" Type="Int32" Nullable="false" />
+    <Property Name="Coins_1_Eur" Type="Int32" Nullable="false" />
+    <Property Name="Coins_50_Cents" Type="Int32" Nullable="false" />
+    <Property Name="Coins_20_Cents" Type="Int32" Nullable="false" />
+    <Property Name="Coins_10_Cents" Type="Int32" Nullable="false" />
+    <Property Name="Coins_5_Cents" Type="Int32" Nullable="false" />
+    <Property Name="Coins_2_Cents" Type="Int32" Nullable="false" />
+    <Property Name="Coins_1_Cents" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Vending_Machine" Relationship="Self.Change_fk0" FromRole="Change" ToRole="Vending_Machine" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Solded" Relationship="Self.Products_fk0" FromRole="Items" ToRole="Solded" />
+    <NavigationProperty Name="Slots" Relationship="Self.Slots_fk1" FromRole="Items" ToRole="Slots" />
+  </EntityType>
+  <EntityType Name="LoginTime">
+    <Key>
+      <PropertyRef Name="IdLogin" />
+    </Key>
+    <Property Name="IdLogin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Time" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="IdMessage" />
+    </Key>
+    <Property Name="IdMessage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserIdFrom" Type="Int32" Nullable="false" />
+    <Property Name="Message1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserIdTo" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="UserRolId" />
+    </Key>
+    <Property Name="UserRolId" Type="Int32" Nullable="false" />
+    <Property Name="RolDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Security" Relationship="Self.FK_Security_Rol" FromRole="Rol" ToRole="Security" />
+  </EntityType>
+  <EntityType Name="RolesPermissionXml">
+    <Key>
+      <PropertyRef Name="IdXml" />
+    </Key>
+    <Property Name="IdXml" Type="Int32" Nullable="false" />
+    <Property Name="xmlInfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Security">
+    <Key>
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="User_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="UserRolId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Rol" Relationship="Self.FK_Security_Rol" FromRole="Security" ToRole="Rol" />
+  </EntityType>
+  <EntityType Name="Slots">
+    <Key>
+      <PropertyRef Name="Id_Slot" />
+      <PropertyRef Name="Id_Machine" />
+      <PropertyRef Name="Id_Product" />
+    </Key>
+    <Property Name="Id_Slot" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Machine" Type="Int32" Nullable="false" />
+    <Property Name="Id_Product" Type="Int32" Nullable="false" />
+    <Property Name="Stock" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Slot_Number" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="Self.Slots_fk1" FromRole="Slots" ToRole="Items" />
+    <NavigationProperty Name="Vending_Machine" Relationship="Self.Slots_fk0" FromRole="Slots" ToRole="Vending_Machine" />
+  </EntityType>
+  <EntityType Name="Solded">
+    <Key>
+      <PropertyRef Name="IdSolded" />
+    </Key>
+    <Property Name="IdSolded" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="IdMachine" Type="Int32" Nullable="false" />
+    <Property Name="IdProduct" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="Self.Products_fk0" FromRole="Solded" ToRole="Items" />
+    <NavigationProperty Name="Vending_Machine" Relationship="Self.Vending_fk0" FromRole="Solded" ToRole="Vending_Machine" />
+  </EntityType>
+  <EntityType Name="Vending_Machine">
+    <Key>
+      <PropertyRef Name="Id_Machine" />
+    </Key>
+    <Property Name="Id_Machine" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Machine_Model" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Poblation" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserAdministrator" Type="Int32" />
+    <NavigationProperty Name="Change" Relationship="Self.Change_fk0" FromRole="Vending_Machine" ToRole="Change" />
+    <NavigationProperty Name="Slots" Relationship="Self.Slots_fk0" FromRole="Vending_Machine" ToRole="Slots" />
+    <NavigationProperty Name="Solded" Relationship="Self.Vending_fk0" FromRole="Vending_Machine" ToRole="Solded" />
+    <Property Name="TokenId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="Change_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Change" Type="Self.Change" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Change">
+        <PropertyRef Name="Id_Machine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Products_fk0">
+    <End Role="Items" Type="Self.Items" Multiplicity="1" />
+    <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Solded">
+        <PropertyRef Name="IdProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Slots_fk1">
+    <End Role="Items" Type="Self.Items" Multiplicity="1" />
+    <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Slots">
+        <PropertyRef Name="Id_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Security_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Security" Type="Self.Security" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="UserRolId" />
+      </Principal>
+      <Dependent Role="Security">
+        <PropertyRef Name="UserRolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Slots_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Slots">
+        <PropertyRef Name="Id_Machine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Vending_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Solded">
+        <PropertyRef Name="IdMachine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MachineVendingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Change" EntityType="Self.Change" />
+    <EntitySet Name="Items" EntityType="Self.Items" />
+    <EntitySet Name="LoginTime" EntityType="Self.LoginTime" />
+    <EntitySet Name="Message" EntityType="Self.Message" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" />
+    <EntitySet Name="RolesPermissionXml" EntityType="Self.RolesPermissionXml" />
+    <EntitySet Name="Security" EntityType="Self.Security" />
+    <EntitySet Name="Slots" EntityType="Self.Slots" />
+    <EntitySet Name="Solded" EntityType="Self.Solded" />
+    <EntitySet Name="Vending_Machine" EntityType="Self.Vending_Machine" />
+    <AssociationSet Name="Change_fk0" Association="Self.Change_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Change" EntitySet="Change" />
+    </AssociationSet>
+    <AssociationSet Name="Products_fk0" Association="Self.Products_fk0">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Solded" EntitySet="Solded" />
+    </AssociationSet>
+    <AssociationSet Name="Slots_fk1" Association="Self.Slots_fk1">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Slots" EntitySet="Slots" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Security_Rol" Association="Self.FK_Security_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="Security" EntitySet="Security" />
+    </AssociationSet>
+    <AssociationSet Name="Slots_fk0" Association="Self.Slots_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Slots" EntitySet="Slots" />
+    </AssociationSet>
+    <AssociationSet Name="Vending_fk0" Association="Self.Vending_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Solded" EntitySet="Solded" />
+    </AssociationSet>
+    <EntitySet Name="PriceUpdated" EntityType="MachineVendingModel.PriceUpdated" />
+  </EntityContainer>
+  <EntityType Name="PriceUpdated">
+    <Key>
+      <PropertyRef Name="IdUpdate" />
+    </Key>
+    <Property Name="IdUpdate" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdProduct" Type="Int32" Nullable="false" />
+    <Property Name="IdMachine" Type="Int32" Nullable="false" />
+    <Property Name="IdSlot" Type="Int32" Nullable="false" />
+    <Property Name="NewPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+  </EntityType>
+</Schema>

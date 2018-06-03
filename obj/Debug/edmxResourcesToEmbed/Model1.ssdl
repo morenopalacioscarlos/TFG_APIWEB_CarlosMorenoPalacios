@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MachineVendingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Change">
+    <Key>
+      <PropertyRef Name="Id_Change" />
+    </Key>
+    <Property Name="Id_Change" Type="int" Nullable="false" />
+    <Property Name="Id_Machine" Type="int" Nullable="false" />
+    <Property Name="Coins_2_Eur" Type="int" Nullable="false" />
+    <Property Name="Coins_1_Eur" Type="int" Nullable="false" />
+    <Property Name="Coins_50_Cents" Type="int" Nullable="false" />
+    <Property Name="Coins_20_Cents" Type="int" Nullable="false" />
+    <Property Name="Coins_10_Cents" Type="int" Nullable="false" />
+    <Property Name="Coins_5_Cents" Type="int" Nullable="false" />
+    <Property Name="Coins_2_Cents" Type="int" Nullable="false" />
+    <Property Name="Coins_1_Cents" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItemName" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoginTime">
+    <Key>
+      <PropertyRef Name="IdLogin" />
+    </Key>
+    <Property Name="IdLogin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Time" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="IdMessage" />
+    </Key>
+    <Property Name="IdMessage" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserIdFrom" Type="int" Nullable="false" />
+    <Property Name="Message" Type="varchar(max)" Nullable="false" />
+    <Property Name="UserIdTo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PriceUpdated">
+    <Key>
+      <PropertyRef Name="IdUpdate" />
+    </Key>
+    <Property Name="IdUpdate" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProduct" Type="int" Nullable="false" />
+    <Property Name="IdMachine" Type="int" Nullable="false" />
+    <Property Name="IdSlot" Type="int" Nullable="false" />
+    <Property Name="NewPrice" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="UserRolId" />
+    </Key>
+    <Property Name="UserRolId" Type="int" Nullable="false" />
+    <Property Name="RolDescription" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolesPermissionXml">
+    <Key>
+      <PropertyRef Name="IdXml" />
+    </Key>
+    <Property Name="IdXml" Type="int" Nullable="false" />
+    <Property Name="xmlInfo" Type="xml" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Security">
+    <Key>
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="User_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Name" Type="varchar(max)" Nullable="false" />
+    <Property Name="Password" Type="varchar(max)" Nullable="false" />
+    <Property Name="Email" Type="varchar(max)" Nullable="false" />
+    <Property Name="Nombre" Type="varchar(max)" />
+    <Property Name="UserRolId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Slots">
+    <Key>
+      <PropertyRef Name="Id_Slot" />
+      <PropertyRef Name="Id_Machine" />
+      <PropertyRef Name="Id_Product" />
+    </Key>
+    <Property Name="Id_Slot" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Machine" Type="int" Nullable="false" />
+    <Property Name="Id_Product" Type="int" Nullable="false" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Slot_Number" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Solded">
+    <Key>
+      <PropertyRef Name="IdSolded" />
+    </Key>
+    <Property Name="IdSolded" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+    <Property Name="IdMachine" Type="int" Nullable="false" />
+    <Property Name="IdProduct" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vending_Machine">
+    <Key>
+      <PropertyRef Name="Id_Machine" />
+    </Key>
+    <Property Name="Id_Machine" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Machine_Model" Type="text" Nullable="false" />
+    <Property Name="City" Type="text" Nullable="false" />
+    <Property Name="Address" Type="text" Nullable="false" />
+    <Property Name="Poblation" Type="text" Nullable="false" />
+    <Property Name="UserAdministrator" Type="int" />
+    <Property Name="TokenId" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="Change_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Change" Type="Self.Change" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Change">
+        <PropertyRef Name="Id_Machine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Security_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Security" Type="Self.Security" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="UserRolId" />
+      </Principal>
+      <Dependent Role="Security">
+        <PropertyRef Name="UserRolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Products_fk0">
+    <End Role="Items" Type="Self.Items" Multiplicity="1" />
+    <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Solded">
+        <PropertyRef Name="IdProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Slots_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Slots">
+        <PropertyRef Name="Id_Machine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Slots_fk1">
+    <End Role="Items" Type="Self.Items" Multiplicity="1" />
+    <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Slots">
+        <PropertyRef Name="Id_Product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Vending_fk0">
+    <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+    <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vending_Machine">
+        <PropertyRef Name="Id_Machine" />
+      </Principal>
+      <Dependent Role="Solded">
+        <PropertyRef Name="IdMachine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MachineVendingModelStoreContainer">
+    <EntitySet Name="Change" EntityType="Self.Change" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginTime" EntityType="Self.LoginTime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PriceUpdated" EntityType="Self.PriceUpdated" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolesPermissionXml" EntityType="Self.RolesPermissionXml" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Security" EntityType="Self.Security" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Slots" EntityType="Self.Slots" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Solded" EntityType="Self.Solded" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vending_Machine" EntityType="Self.Vending_Machine" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="Change_fk0" Association="Self.Change_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Change" EntitySet="Change" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Security_Rol" Association="Self.FK_Security_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="Security" EntitySet="Security" />
+    </AssociationSet>
+    <AssociationSet Name="Products_fk0" Association="Self.Products_fk0">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Solded" EntitySet="Solded" />
+    </AssociationSet>
+    <AssociationSet Name="Slots_fk0" Association="Self.Slots_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Slots" EntitySet="Slots" />
+    </AssociationSet>
+    <AssociationSet Name="Slots_fk1" Association="Self.Slots_fk1">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Slots" EntitySet="Slots" />
+    </AssociationSet>
+    <AssociationSet Name="Vending_fk0" Association="Self.Vending_fk0">
+      <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+      <End Role="Solded" EntitySet="Solded" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

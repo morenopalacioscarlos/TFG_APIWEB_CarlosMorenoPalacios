@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MachineVendingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Change">
+          <Key>
+            <PropertyRef Name="Id_Change" />
+          </Key>
+          <Property Name="Id_Change" Type="int" Nullable="false" />
+          <Property Name="Id_Machine" Type="int" Nullable="false" />
+          <Property Name="Coins_2_Eur" Type="int" Nullable="false" />
+          <Property Name="Coins_1_Eur" Type="int" Nullable="false" />
+          <Property Name="Coins_50_Cents" Type="int" Nullable="false" />
+          <Property Name="Coins_20_Cents" Type="int" Nullable="false" />
+          <Property Name="Coins_10_Cents" Type="int" Nullable="false" />
+          <Property Name="Coins_5_Cents" Type="int" Nullable="false" />
+          <Property Name="Coins_2_Cents" Type="int" Nullable="false" />
+          <Property Name="Coins_1_Cents" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Items">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ItemName" Type="text" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoginTime">
+          <Key>
+            <PropertyRef Name="IdLogin" />
+          </Key>
+          <Property Name="IdLogin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Time" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="IdMessage" />
+          </Key>
+          <Property Name="IdMessage" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserIdFrom" Type="int" Nullable="false" />
+          <Property Name="Message" Type="varchar(max)" Nullable="false" />
+          <Property Name="UserIdTo" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PriceUpdated">
+          <Key>
+            <PropertyRef Name="IdUpdate" />
+          </Key>
+          <Property Name="IdUpdate" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdProduct" Type="int" Nullable="false" />
+          <Property Name="IdMachine" Type="int" Nullable="false" />
+          <Property Name="IdSlot" Type="int" Nullable="false" />
+          <Property Name="NewPrice" Type="money" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="UserRolId" />
+          </Key>
+          <Property Name="UserRolId" Type="int" Nullable="false" />
+          <Property Name="RolDescription" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RolesPermissionXml">
+          <Key>
+            <PropertyRef Name="IdXml" />
+          </Key>
+          <Property Name="IdXml" Type="int" Nullable="false" />
+          <Property Name="xmlInfo" Type="xml" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Security">
+          <Key>
+            <PropertyRef Name="User_Id" />
+          </Key>
+          <Property Name="User_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_Name" Type="varchar(max)" Nullable="false" />
+          <Property Name="Password" Type="varchar(max)" Nullable="false" />
+          <Property Name="Email" Type="varchar(max)" Nullable="false" />
+          <Property Name="Nombre" Type="varchar(max)" />
+          <Property Name="UserRolId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Slots">
+          <Key>
+            <PropertyRef Name="Id_Slot" />
+            <PropertyRef Name="Id_Machine" />
+            <PropertyRef Name="Id_Product" />
+          </Key>
+          <Property Name="Id_Slot" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_Machine" Type="int" Nullable="false" />
+          <Property Name="Id_Product" Type="int" Nullable="false" />
+          <Property Name="Stock" Type="int" />
+          <Property Name="Price" Type="money" />
+          <Property Name="Slot_Number" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Solded">
+          <Key>
+            <PropertyRef Name="IdSolded" />
+          </Key>
+          <Property Name="IdSolded" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+          <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="IdMachine" Type="int" Nullable="false" />
+          <Property Name="IdProduct" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Vending_Machine">
+          <Key>
+            <PropertyRef Name="Id_Machine" />
+          </Key>
+          <Property Name="Id_Machine" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Machine_Model" Type="text" Nullable="false" />
+          <Property Name="City" Type="text" Nullable="false" />
+          <Property Name="Address" Type="text" Nullable="false" />
+          <Property Name="Poblation" Type="text" Nullable="false" />
+          <Property Name="UserAdministrator" Type="int" />
+          <Property Name="TokenId" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <Association Name="Change_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Change" Type="Self.Change" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Change">
+              <PropertyRef Name="Id_Machine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Security_Rol">
+          <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+          <End Role="Security" Type="Self.Security" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="UserRolId" />
+            </Principal>
+            <Dependent Role="Security">
+              <PropertyRef Name="UserRolId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Products_fk0">
+          <End Role="Items" Type="Self.Items" Multiplicity="1" />
+          <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Items">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Solded">
+              <PropertyRef Name="IdProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Slots_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Slots">
+              <PropertyRef Name="Id_Machine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Slots_fk1">
+          <End Role="Items" Type="Self.Items" Multiplicity="1" />
+          <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Items">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Slots">
+              <PropertyRef Name="Id_Product" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Vending_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Solded">
+              <PropertyRef Name="IdMachine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MachineVendingModelStoreContainer">
+          <EntitySet Name="Change" EntityType="Self.Change" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoginTime" EntityType="Self.LoginTime" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PriceUpdated" EntityType="Self.PriceUpdated" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RolesPermissionXml" EntityType="Self.RolesPermissionXml" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Security" EntityType="Self.Security" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Slots" EntityType="Self.Slots" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Solded" EntityType="Self.Solded" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vending_Machine" EntityType="Self.Vending_Machine" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="Change_fk0" Association="Self.Change_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Change" EntitySet="Change" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Security_Rol" Association="Self.FK_Security_Rol">
+            <End Role="Rol" EntitySet="Rol" />
+            <End Role="Security" EntitySet="Security" />
+          </AssociationSet>
+          <AssociationSet Name="Products_fk0" Association="Self.Products_fk0">
+            <End Role="Items" EntitySet="Items" />
+            <End Role="Solded" EntitySet="Solded" />
+          </AssociationSet>
+          <AssociationSet Name="Slots_fk0" Association="Self.Slots_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Slots" EntitySet="Slots" />
+          </AssociationSet>
+          <AssociationSet Name="Slots_fk1" Association="Self.Slots_fk1">
+            <End Role="Items" EntitySet="Items" />
+            <End Role="Slots" EntitySet="Slots" />
+          </AssociationSet>
+          <AssociationSet Name="Vending_fk0" Association="Self.Vending_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Solded" EntitySet="Solded" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MachineVendingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Change">
+          <Key>
+            <PropertyRef Name="Id_Change" />
+          </Key>
+          <Property Name="Id_Change" Type="Int32" Nullable="false" />
+          <Property Name="Id_Machine" Type="Int32" Nullable="false" />
+          <Property Name="Coins_2_Eur" Type="Int32" Nullable="false" />
+          <Property Name="Coins_1_Eur" Type="Int32" Nullable="false" />
+          <Property Name="Coins_50_Cents" Type="Int32" Nullable="false" />
+          <Property Name="Coins_20_Cents" Type="Int32" Nullable="false" />
+          <Property Name="Coins_10_Cents" Type="Int32" Nullable="false" />
+          <Property Name="Coins_5_Cents" Type="Int32" Nullable="false" />
+          <Property Name="Coins_2_Cents" Type="Int32" Nullable="false" />
+          <Property Name="Coins_1_Cents" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Vending_Machine" Relationship="Self.Change_fk0" FromRole="Change" ToRole="Vending_Machine" />
+        </EntityType>
+        <EntityType Name="Items">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ItemName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Solded" Relationship="Self.Products_fk0" FromRole="Items" ToRole="Solded" />
+          <NavigationProperty Name="Slots" Relationship="Self.Slots_fk1" FromRole="Items" ToRole="Slots" />
+        </EntityType>
+        <EntityType Name="LoginTime">
+          <Key>
+            <PropertyRef Name="IdLogin" />
+          </Key>
+          <Property Name="IdLogin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Time" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="IdMessage" />
+          </Key>
+          <Property Name="IdMessage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdFrom" Type="Int32" Nullable="false" />
+          <Property Name="Message1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserIdTo" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rol">
+          <Key>
+            <PropertyRef Name="UserRolId" />
+          </Key>
+          <Property Name="UserRolId" Type="Int32" Nullable="false" />
+          <Property Name="RolDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Security" Relationship="Self.FK_Security_Rol" FromRole="Rol" ToRole="Security" />
+        </EntityType>
+        <EntityType Name="RolesPermissionXml">
+          <Key>
+            <PropertyRef Name="IdXml" />
+          </Key>
+          <Property Name="IdXml" Type="Int32" Nullable="false" />
+          <Property Name="xmlInfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Security">
+          <Key>
+            <PropertyRef Name="User_Id" />
+          </Key>
+          <Property Name="User_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="UserRolId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Rol" Relationship="Self.FK_Security_Rol" FromRole="Security" ToRole="Rol" />
+        </EntityType>
+        <EntityType Name="Slots">
+          <Key>
+            <PropertyRef Name="Id_Slot" />
+            <PropertyRef Name="Id_Machine" />
+            <PropertyRef Name="Id_Product" />
+          </Key>
+          <Property Name="Id_Slot" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Machine" Type="Int32" Nullable="false" />
+          <Property Name="Id_Product" Type="Int32" Nullable="false" />
+          <Property Name="Stock" Type="Int32" />
+          <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Slot_Number" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Items" Relationship="Self.Slots_fk1" FromRole="Slots" ToRole="Items" />
+          <NavigationProperty Name="Vending_Machine" Relationship="Self.Slots_fk0" FromRole="Slots" ToRole="Vending_Machine" />
+        </EntityType>
+        <EntityType Name="Solded">
+          <Key>
+            <PropertyRef Name="IdSolded" />
+          </Key>
+          <Property Name="IdSolded" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="IdMachine" Type="Int32" Nullable="false" />
+          <Property Name="IdProduct" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Items" Relationship="Self.Products_fk0" FromRole="Solded" ToRole="Items" />
+          <NavigationProperty Name="Vending_Machine" Relationship="Self.Vending_fk0" FromRole="Solded" ToRole="Vending_Machine" />
+        </EntityType>
+        <EntityType Name="Vending_Machine">
+          <Key>
+            <PropertyRef Name="Id_Machine" />
+          </Key>
+          <Property Name="Id_Machine" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Machine_Model" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Poblation" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserAdministrator" Type="Int32" />
+          <NavigationProperty Name="Change" Relationship="Self.Change_fk0" FromRole="Vending_Machine" ToRole="Change" />
+          <NavigationProperty Name="Slots" Relationship="Self.Slots_fk0" FromRole="Vending_Machine" ToRole="Slots" />
+          <NavigationProperty Name="Solded" Relationship="Self.Vending_fk0" FromRole="Vending_Machine" ToRole="Solded" />
+          <Property Name="TokenId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="Change_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Change" Type="Self.Change" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Change">
+              <PropertyRef Name="Id_Machine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Products_fk0">
+          <End Role="Items" Type="Self.Items" Multiplicity="1" />
+          <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Items">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Solded">
+              <PropertyRef Name="IdProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Slots_fk1">
+          <End Role="Items" Type="Self.Items" Multiplicity="1" />
+          <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Items">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Slots">
+              <PropertyRef Name="Id_Product" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Security_Rol">
+          <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+          <End Role="Security" Type="Self.Security" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rol">
+              <PropertyRef Name="UserRolId" />
+            </Principal>
+            <Dependent Role="Security">
+              <PropertyRef Name="UserRolId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Slots_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Slots" Type="Self.Slots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Slots">
+              <PropertyRef Name="Id_Machine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Vending_fk0">
+          <End Role="Vending_Machine" Type="Self.Vending_Machine" Multiplicity="1" />
+          <End Role="Solded" Type="Self.Solded" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vending_Machine">
+              <PropertyRef Name="Id_Machine" />
+            </Principal>
+            <Dependent Role="Solded">
+              <PropertyRef Name="IdMachine" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MachineVendingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Change" EntityType="Self.Change" />
+          <EntitySet Name="Items" EntityType="Self.Items" />
+          <EntitySet Name="LoginTime" EntityType="Self.LoginTime" />
+          <EntitySet Name="Message" EntityType="Self.Message" />
+          <EntitySet Name="Rol" EntityType="Self.Rol" />
+          <EntitySet Name="RolesPermissionXml" EntityType="Self.RolesPermissionXml" />
+          <EntitySet Name="Security" EntityType="Self.Security" />
+          <EntitySet Name="Slots" EntityType="Self.Slots" />
+          <EntitySet Name="Solded" EntityType="Self.Solded" />
+          <EntitySet Name="Vending_Machine" EntityType="Self.Vending_Machine" />
+          <AssociationSet Name="Change_fk0" Association="Self.Change_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Change" EntitySet="Change" />
+          </AssociationSet>
+          <AssociationSet Name="Products_fk0" Association="Self.Products_fk0">
+            <End Role="Items" EntitySet="Items" />
+            <End Role="Solded" EntitySet="Solded" />
+          </AssociationSet>
+          <AssociationSet Name="Slots_fk1" Association="Self.Slots_fk1">
+            <End Role="Items" EntitySet="Items" />
+            <End Role="Slots" EntitySet="Slots" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Security_Rol" Association="Self.FK_Security_Rol">
+            <End Role="Rol" EntitySet="Rol" />
+            <End Role="Security" EntitySet="Security" />
+          </AssociationSet>
+          <AssociationSet Name="Slots_fk0" Association="Self.Slots_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Slots" EntitySet="Slots" />
+          </AssociationSet>
+          <AssociationSet Name="Vending_fk0" Association="Self.Vending_fk0">
+            <End Role="Vending_Machine" EntitySet="Vending_Machine" />
+            <End Role="Solded" EntitySet="Solded" />
+          </AssociationSet>
+          <EntitySet Name="PriceUpdated" EntityType="MachineVendingModel.PriceUpdated" />
+        </EntityContainer>
+        <EntityType Name="PriceUpdated">
+          <Key>
+            <PropertyRef Name="IdUpdate" />
+          </Key>
+          <Property Name="IdUpdate" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdProduct" Type="Int32" Nullable="false" />
+          <Property Name="IdMachine" Type="Int32" Nullable="false" />
+          <Property Name="IdSlot" Type="Int32" Nullable="false" />
+          <Property Name="NewPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MachineVendingModelStoreContainer" CdmEntityContainer="MachineVendingEntities">
+          <EntitySetMapping Name="Change">
+            <EntityTypeMapping TypeName="MachineVendingModel.Change">
+              <MappingFragment StoreEntitySet="Change">
+                <ScalarProperty Name="Id_Change" ColumnName="Id_Change" />
+                <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+                <ScalarProperty Name="Coins_2_Eur" ColumnName="Coins_2_Eur" />
+                <ScalarProperty Name="Coins_1_Eur" ColumnName="Coins_1_Eur" />
+                <ScalarProperty Name="Coins_50_Cents" ColumnName="Coins_50_Cents" />
+                <ScalarProperty Name="Coins_20_Cents" ColumnName="Coins_20_Cents" />
+                <ScalarProperty Name="Coins_10_Cents" ColumnName="Coins_10_Cents" />
+                <ScalarProperty Name="Coins_5_Cents" ColumnName="Coins_5_Cents" />
+                <ScalarProperty Name="Coins_2_Cents" ColumnName="Coins_2_Cents" />
+                <ScalarProperty Name="Coins_1_Cents" ColumnName="Coins_1_Cents" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Items">
+            <EntityTypeMapping TypeName="MachineVendingModel.Items">
+              <MappingFragment StoreEntitySet="Items">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoginTime">
+            <EntityTypeMapping TypeName="MachineVendingModel.LoginTime">
+              <MappingFragment StoreEntitySet="LoginTime">
+                <ScalarProperty Name="IdLogin" ColumnName="IdLogin" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Message">
+            <EntityTypeMapping TypeName="MachineVendingModel.Message">
+              <MappingFragment StoreEntitySet="Message">
+                <ScalarProperty Name="IdMessage" ColumnName="IdMessage" />
+                <ScalarProperty Name="UserIdFrom" ColumnName="UserIdFrom" />
+                <ScalarProperty Name="Message1" ColumnName="Message" />
+                <ScalarProperty Name="UserIdTo" ColumnName="UserIdTo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rol">
+            <EntityTypeMapping TypeName="MachineVendingModel.Rol">
+              <MappingFragment StoreEntitySet="Rol">
+                <ScalarProperty Name="UserRolId" ColumnName="UserRolId" />
+                <ScalarProperty Name="RolDescription" ColumnName="RolDescription" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RolesPermissionXml">
+            <EntityTypeMapping TypeName="MachineVendingModel.RolesPermissionXml">
+              <MappingFragment StoreEntitySet="RolesPermissionXml">
+                <ScalarProperty Name="IdXml" ColumnName="IdXml" />
+                <ScalarProperty Name="xmlInfo" ColumnName="xmlInfo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Security">
+            <EntityTypeMapping TypeName="MachineVendingModel.Security">
+              <MappingFragment StoreEntitySet="Security">
+                <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+                <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="UserRolId" ColumnName="UserRolId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Slots">
+            <EntityTypeMapping TypeName="MachineVendingModel.Slots">
+              <MappingFragment StoreEntitySet="Slots">
+                <ScalarProperty Name="Id_Slot" ColumnName="Id_Slot" />
+                <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+                <ScalarProperty Name="Id_Product" ColumnName="Id_Product" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Slot_Number" ColumnName="Slot_Number" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Solded">
+            <EntityTypeMapping TypeName="MachineVendingModel.Solded">
+              <MappingFragment StoreEntitySet="Solded">
+                <ScalarProperty Name="IdSolded" ColumnName="IdSolded" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="IdMachine" ColumnName="IdMachine" />
+                <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Vending_Machine">
+            <EntityTypeMapping TypeName="MachineVendingModel.Vending_Machine">
+              <MappingFragment StoreEntitySet="Vending_Machine">
+                <ScalarProperty Name="TokenId" ColumnName="TokenId" />
+                <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+                <ScalarProperty Name="Machine_Model" ColumnName="Machine_Model" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Poblation" ColumnName="Poblation" />
+                <ScalarProperty Name="UserAdministrator" ColumnName="UserAdministrator" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PriceUpdated">
+            <EntityTypeMapping TypeName="MachineVendingModel.PriceUpdated">
+              <MappingFragment StoreEntitySet="PriceUpdated">
+                <ScalarProperty Name="NewPrice" ColumnName="NewPrice" />
+                <ScalarProperty Name="IdSlot" ColumnName="IdSlot" />
+                <ScalarProperty Name="IdMachine" ColumnName="IdMachine" />
+                <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+                <ScalarProperty Name="IdUpdate" ColumnName="IdUpdate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

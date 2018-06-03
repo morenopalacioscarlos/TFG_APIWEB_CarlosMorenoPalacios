@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI_VENDINGMACHINE", "WEBAPI_VENDINGMACHINE\WEBAPI_VENDINGMACHINE.csproj", "{D37EA474-9E3A-4C2C-B9A6-9CFC88325B29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI_VENDINGMACHINE", "WEBAPI_VENDINGMACHINE.csproj", "{D37EA474-9E3A-4C2C-B9A6-9CFC88325B29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F9F6272-D291-408B-BB0A-DE3FAE4BBDAA}
 	EndGlobalSection
 EndGlobal

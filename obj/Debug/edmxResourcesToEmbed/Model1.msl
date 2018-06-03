@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MachineVendingModelStoreContainer" CdmEntityContainer="MachineVendingEntities">
+    <EntitySetMapping Name="Change">
+      <EntityTypeMapping TypeName="MachineVendingModel.Change">
+        <MappingFragment StoreEntitySet="Change">
+          <ScalarProperty Name="Id_Change" ColumnName="Id_Change" />
+          <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+          <ScalarProperty Name="Coins_2_Eur" ColumnName="Coins_2_Eur" />
+          <ScalarProperty Name="Coins_1_Eur" ColumnName="Coins_1_Eur" />
+          <ScalarProperty Name="Coins_50_Cents" ColumnName="Coins_50_Cents" />
+          <ScalarProperty Name="Coins_20_Cents" ColumnName="Coins_20_Cents" />
+          <ScalarProperty Name="Coins_10_Cents" ColumnName="Coins_10_Cents" />
+          <ScalarProperty Name="Coins_5_Cents" ColumnName="Coins_5_Cents" />
+          <ScalarProperty Name="Coins_2_Cents" ColumnName="Coins_2_Cents" />
+          <ScalarProperty Name="Coins_1_Cents" ColumnName="Coins_1_Cents" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="MachineVendingModel.Items">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginTime">
+      <EntityTypeMapping TypeName="MachineVendingModel.LoginTime">
+        <MappingFragment StoreEntitySet="LoginTime">
+          <ScalarProperty Name="IdLogin" ColumnName="IdLogin" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Message">
+      <EntityTypeMapping TypeName="MachineVendingModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="IdMessage" ColumnName="IdMessage" />
+          <ScalarProperty Name="UserIdFrom" ColumnName="UserIdFrom" />
+          <ScalarProperty Name="Message1" ColumnName="Message" />
+          <ScalarProperty Name="UserIdTo" ColumnName="UserIdTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="MachineVendingModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="UserRolId" ColumnName="UserRolId" />
+          <ScalarProperty Name="RolDescription" ColumnName="RolDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolesPermissionXml">
+      <EntityTypeMapping TypeName="MachineVendingModel.RolesPermissionXml">
+        <MappingFragment StoreEntitySet="RolesPermissionXml">
+          <ScalarProperty Name="IdXml" ColumnName="IdXml" />
+          <ScalarProperty Name="xmlInfo" ColumnName="xmlInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Security">
+      <EntityTypeMapping TypeName="MachineVendingModel.Security">
+        <MappingFragment StoreEntitySet="Security">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="UserRolId" ColumnName="UserRolId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slots">
+      <EntityTypeMapping TypeName="MachineVendingModel.Slots">
+        <MappingFragment StoreEntitySet="Slots">
+          <ScalarProperty Name="Id_Slot" ColumnName="Id_Slot" />
+          <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+          <ScalarProperty Name="Id_Product" ColumnName="Id_Product" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Slot_Number" ColumnName="Slot_Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solded">
+      <EntityTypeMapping TypeName="MachineVendingModel.Solded">
+        <MappingFragment StoreEntitySet="Solded">
+          <ScalarProperty Name="IdSolded" ColumnName="IdSolded" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="IdMachine" ColumnName="IdMachine" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vending_Machine">
+      <EntityTypeMapping TypeName="MachineVendingModel.Vending_Machine">
+        <MappingFragment StoreEntitySet="Vending_Machine">
+          <ScalarProperty Name="TokenId" ColumnName="TokenId" />
+          <ScalarProperty Name="Id_Machine" ColumnName="Id_Machine" />
+          <ScalarProperty Name="Machine_Model" ColumnName="Machine_Model" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Poblation" ColumnName="Poblation" />
+          <ScalarProperty Name="UserAdministrator" ColumnName="UserAdministrator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceUpdated">
+      <EntityTypeMapping TypeName="MachineVendingModel.PriceUpdated">
+        <MappingFragment StoreEntitySet="PriceUpdated">
+          <ScalarProperty Name="NewPrice" ColumnName="NewPrice" />
+          <ScalarProperty Name="IdSlot" ColumnName="IdSlot" />
+          <ScalarProperty Name="IdMachine" ColumnName="IdMachine" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdUpdate" ColumnName="IdUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
